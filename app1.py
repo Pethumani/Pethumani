@@ -35,4 +35,4 @@ def result():
 		return render_template('result.html', prediction = prediction) 
 
 if __name__ == '__main__':
-    app.run(port = 5000, debug=True)
+    app.run(debug=True)
